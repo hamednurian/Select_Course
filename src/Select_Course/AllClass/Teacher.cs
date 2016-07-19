@@ -7,11 +7,6 @@ namespace Select_Course.AllClass
 {
     public class Teacher:Person
     {
-       void aa()
-        {
-            var Student = new Student();
-        }
-       
-    
+
     }
 }

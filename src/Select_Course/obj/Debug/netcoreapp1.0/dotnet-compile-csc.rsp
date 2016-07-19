@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\bin\Debug\netcoreapp1.0\Select_Course.dll"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\bin\Debug\netcoreapp1.0\Select_Course.dll"
 -r:"C:\Users\hamed_nourian\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\hamed_nourian\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll"
 -r:"C:\Users\hamed_nourian\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
@@ -82,10 +82,10 @@
 -r:"C:\Users\hamed_nourian\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\hamed_nourian\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\hamed_nourian\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\Program.cs"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Course.cs"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Person.cs"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\SelectedCourse.cs"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Student.cs"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Teacher.cs"
-"c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\Properties\AssemblyInfo.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\Program.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Course.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Person.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\SelectedCourse.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Student.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Teacher.cs"
+"C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\Properties\AssemblyInfo.cs"

@@ -1,5 +1,5 @@
---temp-output:c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\obj\Debug\netcoreapp1.0\
---out:c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\bin\Debug\netcoreapp1.0\Select_Course.dll
+--temp-output:C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\obj\Debug\netcoreapp1.0\
+--out:C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\bin\Debug\netcoreapp1.0\Select_Course.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -86,10 +86,10 @@
 --reference:C:\Users\hamed_nourian\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\hamed_nourian\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\hamed_nourian\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\Program.cs
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Course.cs
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Person.cs
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\SelectedCourse.cs
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Student.cs
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Teacher.cs
-c:\users\hamed_nourian\documents\visual studio 2015\Projects\Select_Course\src\Select_Course\Properties\AssemblyInfo.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\Program.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Course.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Person.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\SelectedCourse.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Student.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\AllClass\Teacher.cs
+C:\Users\hamed_nourian\Documents\Visual Studio 2015\Projects\Select_Course\src\Select_Course\Properties\AssemblyInfo.cs

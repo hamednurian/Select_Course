@@ -10,97 +10,118 @@ namespace Select_Course.AllClass
         /// <summary>
         /// نام شخص به فارسی
         /// </summary>
-        internal string First_Name_Fa;
+        public string First_Name_Fa{ get; set; }
+
         /// <summary>
         /// نام شخص به انگلیسی
         /// </summary>
-        internal string First_Name_Eng;
+        public string First_Name_Eng { get; set; }
+
         /// <summary>
         /// نام خانوادگی شخص به فارسی
         /// </summary>
-        internal string Last_Name_Fa;
+        public string Last_Name_Fa { get; set; }
+
         /// <summary>
         /// نام خانوادگی شخص به انگلیسی
         /// </summary>
-        internal string Last_Name_Eng;
+        public string Last_Name_Eng { get; set; }
+
         /// <summary>
         /// نام پدر شخص به فارسی
         /// </summary>
-        internal string Father_Name_Fa;
+        public string Father_Name_Fa { get; set; }
+
         /// <summary>
         /// نام پدر شخص به انگلیسی
         /// </summary>
-        internal string Father_Name_Eng;
+        public string Father_Name_Eng { get; set; }
+
         /// <summary>
         /// تاریخ تولد شخص به شمسی
         /// </summary>
-        internal DateTime Date_Of_Birth_Sh;
+        public DateTime Date_Of_Birth_Sh { get; set; }
+
         /// <summary>
         /// تاریخ تولد شخص به میلادی
         /// </summary>
-        internal DateTime Date_Of_Birth_Mi;
+        public DateTime Date_Of_Birth_Mi { get; set; }
+
         /// <summary>
         /// کد ملی شخص
         /// </summary>
-        internal long National_Code;
+        public long National_Code { get; set; }
+
         /// <summary>
         /// شماره شناسنامه شخص
         /// </summary>
-        internal long Birth_Certificate_Number;
+        public long Birth_Certificate_Number { get; set; }
+
         /// <summary>
         /// محل صدور شناسنامه شخص
         /// </summary>
-        internal string Location_Register;
+        public string Location_Register { get; set; }
+
         /// <summary>
         /// محل تولد شخص
         /// </summary>
-        internal string Place_Of_Birth;
+        public string Place_Of_Birth { get; set; }
+
         /// <summary>
         /// سری و سریال شناسنامه شخص
         /// </summary>
-        internal string Series_and_serial_Of_Birth_Certificate;
+        public string Series_and_serial_Of_Birth_Certificate { get; set; }
+
         /// <summary>
         /// تابعیت شخص
         /// </summary>
-        internal string Nationality;
+        public string Nationality { get; set; }
+
         /// <summary>
         /// شماره گذرنامه شخص
         /// </summary>
-        internal long Passport_Number;
+        public long Passport_Number { get; set; }
+
         /// <summary>
         /// شماره کارت هویت شخص
         /// </summary>
-        internal long Identity_Card_Number;
+        public long Identity_Card_Number { get; set; }
+
         /// <summary>
         /// دین شخص
         /// </summary>
-        internal string Religion;
+        public string Religion { get; set; }
+
         /// <summary>
         /// مذهب شخص
         /// </summary>
-        internal string Religion_Of;
+        public string Religion_Of { get; set; }
+
         /// <summary>
         /// وضعیت تاهل شخص
         /// </summary>
-        internal bool Marriage;
+        public bool Marriage { get; set; }
+
         /// <summary>
         /// ایمیل شخص
         /// </summary>
-        internal string Email;
+        public string Email { get; set; }
+       
         /// <summary>
         /// آدرس شخص
         /// </summary>
-        internal struct Adress
+        public struct Adress
         {
-            string Contry;
-            string United;
-            string City;
-            string full;
+           public string Contry;
+           public string United;
+           public string City;
+           public string full;
         }
-        internal Adress Addres;
+        public Adress Addres { get; set; }
+
         /// <summary>
         /// شماره تلفن شخص
         /// </summary>
-        internal string Phone_Number;
+        public string Phone_Number { get; set; }
     }
 }

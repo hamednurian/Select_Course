@@ -15,63 +15,73 @@ namespace Select_Course.AllClass
         /// 4.معرف اسلامی
         /// 5.فنی و حرفه ای
         /// </summary>
-        string Noe_Diplom;
+        public string Noe_Diplom{ get; set; }
+
         /// <summary>
         /// تاریخ اخذ مدرک دیپلم دانشجو
         /// </summary>
-        DateTime Tarikhe_Akhze_diplom;
+        public DateTime Tarikhe_Akhze_diplom{ get; set; }
+
         /// <summary>
         /// معدل دیپلم دانشجو
         /// </summary>
-        short Moadel_Diplom;
+        public short Moadel_Diplom{ get; set; }
+        
         /// <summary>
         /// محل اخذ دیپلم که از اجزای زیر تشکیل شده است
         /// 1.شهر
         /// 2.ناحیه
         /// 3.نام دبیرستان
         /// </summary>
-        struct Mahale_Akhze_diplom
+        public struct Mahale_Akhze_diplom
         {
-            string Shahr;
-            string Nahiye;
-            string Name_dabirestan;
+            public string Shahr;
+            public string Nahiye;
+            public string Name_dabirestan;
         }
         /// <summary>
         /// متغیر محل اخذ دیپلم
         /// </summary>
-        Mahale_Akhze_diplom Mahale_akhze_Diplom;
+        public Mahale_Akhze_diplom Mahale_akhze_Diplom{ get; set; }
+
         /// <summary>
         /// نوع پیش دانشگاهی یکی از مقادیر زیر است
         /// 1.ریاضی و فیزیک
         /// 2.علوم تجربی
         /// 3.علوم انسانی
         /// </summary>
-        string Noe_PishDaneshgahi;
+        public string Noe_PishDaneshgahi{ get; set; }
+
         /// <summary>
         /// تاریخ اخذ مدرک پیش دانشگاهی دانشجو
         /// </summary>
-        DateTime Tarikhe_Akhze_PishDaneshgahi;
+        public DateTime Tarikhe_Akhze_PishDaneshgahi{ get; set; }
+
         /// <summary>
         /// معدل پیش دانشگاهی دانشجو
         /// </summary>
-        short Moadel_Pishdaneshgahi;
+        public short Moadel_Pishdaneshgahi{ get; set; }
+    
         /// <summary>
         /// محل اخذ پیش دانشگاهی که از اجزای زیر تشکیل شده است
         /// 1.شهر
         /// 2.ناحیه
         /// 3.نام دبیرستان
         /// </summary>
-        struct Mahale_Akhze_Pishdaneshgahi
+        public struct Mahale_Akhze_Pishdaneshgahi
         {
-            string Shahr;
-            string Nahiye;
-            string Name_dabirestan;
+            public string Shahr;
+            public string Nahiye;
+            public string Name_dabirestan;
         }
         /// <summary>
         /// متغیر محل اخذ دیپلم
         /// </summary>
-        Mahale_Akhze_Pishdaneshgahi Mahale_Akhze_PishDaneshgahi;
-        
+        public Mahale_Akhze_Pishdaneshgahi Mahale_Akhze_PishDaneshgahi{ get; set; }
+        /// <summary>
+        /// لیست درس های انتخاب شده توسط دانشجو
+        /// </summary>
+        public ICollection<SelectedCourse> selected_courses{ get; set;}
 
     }
 }

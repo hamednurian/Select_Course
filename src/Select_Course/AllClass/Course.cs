@@ -13,7 +13,7 @@ namespace Select_Course.AllClass
         ///2.تخصصی
         ///3.عمومی
         /// </summary>
-        internal enum anvae_dars { Ekhtiyari, Takhasosi, Omumi }
+        public enum anvae_dars { Ekhtiyari, Takhasosi, Omumi }
         /// <summary>
         /// انواع درس را تعریف 
         ///1.اختیاری
@@ -26,38 +26,37 @@ namespace Select_Course.AllClass
         /// عملی و تخصصی و اختیاری و عمومی بودن
         /// و تعداد واحد های عملی و تئوری
         /// </summary>
-        anvae_dars noe_dars;
-        Noe_vahed noe_vahed;
-        int Tedade_Amali;
-        int Tedade_Teori;
+        public anvae_dars noe_dars { get; set; }
+        public Noe_vahed noe_vahed { get; set; }
+        public int Tedade_Amali { get; set; }
+        public int Tedade_Teori { get; set; }
     }
     public class Course
     {
-        Course()
-        {
-           
-        }
         /// <summary>
         /// نام درس
         /// </summary>
-        string Name;
+        public string Name { get; set; }
         /// <summary>
         /// کد درس
         /// </summary>
-        int Code;
+        public int Code { get; set; }
         /// <summary>
         /// تعداد واحد درس
         /// </summary>
-        short tedade_Vahed;
+        public short tedade_Vahed { get; set; }
         /// <summary>
         /// منبع درس
         /// </summary>
-        string Manba;
+        public string Manba { get; set; }
+        /// <summary>
+        /// اطلاعات درس از قبیل نوع درس
+        /// </summary>
+        public Dars_info noe_dars{ get; set; }
+        /// <summary>
+        /// اساتیدی که این درس توسط انان تدریس می شود
+        /// </summary>
+        public ICollection<Teacher> Teachers { get; set; }
 
-        Dars_info dars_information;
-        static void Main(string[] args)
-        {
-            
-        }
     }
 }
